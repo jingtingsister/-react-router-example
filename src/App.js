@@ -15,9 +15,9 @@ const App = () => (
 
                 <hr/>
 
-                <Route exact path='/' Component={Home}/>
-                <Route path='/about' Component={About}/>
-                <Route path='/topics' Component={Topics}/>
+                <Route exact path='/' component={Home}/>
+                <Route path='/about' component={About}/>
+                <Route path='/topics' component={Topics}/>
             </div>
         </Router>
 );
